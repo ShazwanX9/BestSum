@@ -1,7 +1,20 @@
+"""
+Find the best fit to lookup value                       (ref_val)
+By calculating the sum of n number                      (size) 
+From combination of list of integer provided            (ls)
+"""
+
 from random import randrange
 from itertools import combinations
 
-def choose_best_sum(ref_val, size, ls):
+def choose_best_sum(ref_val, size, ls)->int:
+    """
+    :param:  -> int     - (ref_val)
+    :param:  -> int     - (size)
+    :param:  -> list    - (ls)
+    :return: -> int     - the nearest at most of int ref_val
+    """
+
     comb, res = [], 0
 
     for check_combination in combinations(ls, size):
