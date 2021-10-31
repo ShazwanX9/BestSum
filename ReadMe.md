@@ -2,8 +2,8 @@
 
 ___
     Find the best fit to lookup value                       (ref_val)
-    By calculating the sum of combination n number          (size) 
-    From list of integer provided                           (ls)
+    By calculating the sum of n number                      (size) 
+    From combination of list of integer provided            (ls)
 ___
 
     Required:
